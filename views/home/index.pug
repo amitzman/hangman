@@ -1,3 +1,16 @@
 extends ../shared/template
 block content
-  h1 Home
+  h1 Hangman
+  label Name:
+  input#id.hidden(type="text")
+  input#name(type="text" name="name")
+  button#startBtn Start Game
+  #gameArea.hidden
+      #gameMsg
+      #debug
+      #timer
+      #attmpts
+      img#graphic
+      #letters
+      input#guess(type="text")
+      button#guessBtn Guess

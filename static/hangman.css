@@ -1,0 +1,11 @@
+.hidden {
+  visibility:hidden;
+}
+.letterChoice {
+  border-bottom: thin black solid;
+  width: 1.5em;
+  float: left;
+  padding: 2px;
+  margin-right: .25em;
+  text-align: center;
+}
